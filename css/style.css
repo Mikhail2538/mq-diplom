@@ -164,19 +164,19 @@ body {
 }
 
 .garden {
-  background-image: url("/images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
 }
 
 .cheese {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
 }
 
 .mountains {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
 }
 
 .lemons {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
 }
 
 .title-white {
