@@ -36,10 +36,10 @@ a {
 }
 
 body {
-  min-width: 800px;
+  width: 1660px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 0px auto;
 }
 
 .header {
