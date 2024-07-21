@@ -52,9 +52,9 @@ a {
   position: relative;
   background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  width: 1660px;
+  width: 100%;
   min-height: 450px;
 }
 
@@ -84,7 +84,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1170px;
+  width: 1170px;
   margin: 28px auto;
 }
 
@@ -218,11 +218,12 @@ a {
 .last-post-list {
   display: flex;
   gap: 30px;
-  max-width: 780px;
+  min-width: 780px;
 }
 
 .category {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 6px;
   text-transform: uppercase;
   font-family: OpenSans;
@@ -250,9 +251,8 @@ a {
 }
 
 .content {
-  box-sizing: border-box;
   width: 370px;
-  height: 295px;
+  min-height: 295px;
 }
 
 .data-autor {
@@ -545,7 +545,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 340px;
-  height: 440px;
+  min-height: 440px;
 }
 
 .product-image {
@@ -601,10 +601,10 @@ a {
 
 .description {
   width: 340px;
-  height: 260px;
+  min-height: 260px;
   box-sizing: border-box;
   margin-top: -30px;
-  padding: 30px 20px 70px 22px;
+  padding: 30px 20px 20px 22px;
   outline: 3px solid #d5c9a3;
 }
 
